@@ -3,6 +3,7 @@ jobs:
     steps:
       - checkout
       - run: echo "This is a build step"    # similar to "script" in GitLab
+      - run: echo "This is a build"
 
   test:
     steps:
